@@ -42,5 +42,8 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Backend folder (deployed separately)
-Backend/
+# Backend Python virtual environment
+Backend/venv/
+Backend/__pycache__/
+Backend/**/__pycache__/
+Backend/.env
